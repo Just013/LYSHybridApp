@@ -1,2 +1,32 @@
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+*.DS_Store
+
 #忽略node_modules目录
 node_modules
+
+#User settings
+xcuserdata
+
+#忽略用户操作的GUI状态
+*.xcuserstate
+
+#Pods
+Pods
+
+# Carthage
+#
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
+
+Carthage/Build/
+
+# Code Injection
+#
+# After new code Injection tools there's a generated folder /iOSInjectionProject
+# https://github.com/johnno1962/injectionforxcode
+
+iOSInjectionProject/
+
